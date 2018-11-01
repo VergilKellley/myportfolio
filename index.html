@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vergil Kelley</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Vergil Kelley">
+
+
+	<!-- jQuery CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- scroll reveal link -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+
+
+	<script>
+    	// Fade-in function 3 seconds
+    	$(document).ready(function() {
+        $('body').hide().fadeIn(3000);
+      });
+  </script>
+
+
+
+
+  
+</head>
+<body>
+
+	<!------------------navbar-------------------------->
+		<nav id="nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#weather">Apps</a></li>
+				<li><a href="#websites">Websites</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="https://github.com/VergilKellley" target="_blank">GitHub</a></li>
+				<!--<li><a href="#contact">Contact</a></li>-->
+			</ul>
+		</nav>
+    <!-------------------------end navbar-------------------------------->
+    <div id="home"></div>
+    <div class="container">
+		<div id="name">
+			<h1>Vergil Kelley <span class="txt-type" data-wait="1000" data-words='["Front-End", "Web", "Developer"]'></span></h1>
+			<h2 id="welcome">Welcome To My Website</h2>
+		</div>
+			<a id="readmore">Read More...</a>
+			
+		<br>
+
+		<div id="about-container">
+			<span class="closeBtn">&times;</span>
+			<p id="readmore-text">Greetings! I am a Chicago based developer who specializes in creating eye-catching and dynamic UI/UX. If im not freelancing for small businesses I'm working on projects for friends and family.</p>
+
+			<p>I have an insatiable desire learn new web technologies and believe anything worth doing is worth doing with passion!</p>
+		</div>
+	</div>
+
+
+		<div id="weather"></div>
+		<div class="portfolio-container" >
+					<h2>Current Weather</h2>
+					<p>Get current weather conditions in cities around the world. <span style="font-weight: bolder;">Made with:</span> HTML5, CSS3, Bootstrap, JavaScript, jQuery, Ajax and OpenWeatherMap API.</p>
+						<!---input city name------->
+					<input type="text" name="city" id="city" class="form-control" placeholder="Enter City Name">
+
+					<div id="error"></div>
+
+						<!---- get current weather--------->
+						<button id="submitWeather">Get Weather</button>
+					<div  id="show"></div>
+		
+
+		<!--- Portfolio Vergil Portfolio --->
+				<div id="websites">
+					<div class="websites show-down" >
+						<br><br><br><br>
+						<h3 >Portfolio</h3>
+						<br>
+						<p>Welcome to my portfolio. These sites are responsive and hosted on GitHub Pages. This site was <span style="font-weight: bolder;">Created with:</span> HTML5, CSS3, JavaScript and jQuery.</p>
+						
+						<a href="https://vergilkellley.github.io/vergilkelley.github.io/" target="_blank"><button>View Site</button></a>
+
+						<a href="https://github.com/VergilKellley/VergilKellley.github.io" target="_blank"><button>View Code</button></a>
+						<br>
+						<br>
+
+						<a href="https://vergilkellley.github.io/vergilkelley.github.io/" target="_blank"><img class="screen-shot" src="img/Capture.PNG"  class="img-fluid" alt="Vergil Kelley portfolio screen shot"></a>
+					</div>
+
+					<div class="websites show-right">
+						<h3>WordPress Travel Blog</h3>
+						<br>
+						<p>Custom, responsive, WordPress blog website. Click the "View Code" button below to view code on github or to download code and view site locally. <span style="font-weight: bolder;">Created with:</span> WordPress Template, HTML5 , CSS3, Bootstrap, Font Awesome, Media Queries, and PHP.</p>
+						
+						<a href="https://github.com/VergilKellley/travelblog" target="_blank"><button>View Code</button></a>
+						<br>
+						<br>
+
+
+						<a href="https://github.com/VergilKellley/travelblog" target="_blank"><img class="screen-shot" src="img/travelbloglandingpage.PNG"  class="img-fluid" alt="travel blog landing page"></a>
+					</div>
+
+					<div class="websites show-up">
+						<h3>Beutel Desserts</h3><br>
+						<p>Tim Beutel is a pastry chef with a love for all things sweet! Catering available for all occasions.<span style="font-weight: bolder;"> Created with:</span> HTML5, CSS3, Bootstrap, Google Fonts and jQuery.</p>
+
+						<a href="https://vergilkellley.github.io/BeutelCatering/" target="_blank"><button style="margin:10px;">View Site</button></a>
+
+						<a href="https://github.com/VergilKellley/BeutelCatering" target="_blank"><button>View Code</button></a>
+						<br>
+						<br>
+						
+						<a href="https://vergilkellley.github.io/BeutelCatering/" target="_blank"><img id="img-outline" class="screen-shot" src="img/beutel.PNG"  class="img-fluid" alt="Beutel Desserts"></a>
+					</div>
+
+					<div class="websites show-left">
+						<h3>Denise M. Spencer</h3><br>
+						<p>Denise M. Spencer is a Chicago-based public relations and engagement marketing professional with the heart and mind of a journalist. <span style="font-weight: bolder;">Created with:</span> HTML5, CSS3, Bootstrap, jQuery and SASS.</p>
+
+						<a href="https://vergilkellley.github.io/DeniseMSpencer/" target="_blank"><button style="margin:10px;">View Site</button></a>
+
+						<a href="https://github.com/VergilKellley/DeniseMSpencer" target="_blank"><button>View Code</button></a>
+						<br>
+						<br>
+
+						<a href="https://vergilkellley.github.io/DeniseMSpencer/" target="_blank"><img class="screen-shot" src="img/dms.PNG"  class="img-fluid" alt="Denise M. Spencer"></a>
+					</div>
+			
+
+		<!-------------------site under construction-------------------->
+		
+				<!--<div class="websites">
+					<h3>Juggernaut DJs</h3>
+						<br>
+						<p>Meet the Juggernaut DJs from Phoenix Arizona. Originally from Chicago Illinois these guys spin only the hottest house beats. <span style="font-weight: bolder;">Created with:</span> HTML5, CSS3, CSS Grid, Flexbox, jQuery and Media Queries.</p>
+
+						<a href="https://vergilkellley.github.io/vergilkelley.github.io/Juggernauts/" target="_blank"><button style="margin:10px;">View Site</button></a>
+
+						<a href="https://github.com/VergilKellley/Juggernauts" target="_blank"><button>View Code</button></a>
+						<br>
+						<br>
+
+						<a href="https://vergilkellley.github.io/Juggernauts/" target="_blank"><img class="screen-shot" src="../vergilkellley.github.io/img/juggernaut.PNG"  class="img-fluid" alt="juggernaut home page"></a>	
+					</div>--->
+
+					<div class="websites show-down">
+						<h3>Guaranteed Gutters</h3>
+						<br>
+						<p>Owner Operated, Guaranteed Gutters has been serving Chicago's northwest side for more than 10 years. <span style="font-weight: bolder;">Created with:</span> HTML5, CSS3, CSS Grid, Flexbox, jQuery and Media Queries.</p>
+
+						<a href="https://vergilkellley.github.io/gutters2018/" target="_blank"><button style="margin:10px;">View Site</button></a>
+
+						<a href="https://github.com/VergilKellley/gutters2018" target="_blank"><button>View Code</button></a>
+						<br>
+						<br>
+
+
+						<a href="https://vergilkellley.github.io/gutters2018/" target="_blank"><img class="screen-shot" src="img/gutters.PNG"  class="img-fluid" alt="guaranteed gutters home page"></a>
+					</div>	
+				</div>
+			</div>
+				
+
+				<!-- Resume section -->
+		<div id="resume"></div>
+		<br>
+		<br>
+
+		<div class="resume-body">
+			<div id="resume-header">
+				<h1 id="myName">Vergil Kelley</h1>
+				<p>(708)973-9694</p>
+				<p>verg_1@yahoo.com</p>
+			</div>
+
+		<br><br>
+		<hr>
+				<div id="prof-summary">
+					<h3>Professional Summary</h3>
+					<p>I am a native Chicagoan well trained, self-taught web developer that knows how to create and modify web content using responsive design techniques. Experienced in analyzing customer needs, working with teams using software for manipulating multimedia content and possess the capacity to learn and adapt in a fast paced environment.</p>
+				</div>
+		<hr>
+
+		<!-- Resume Technical Skills section -->
+		<div class="tech-skills-title">
+			<h3>Technical Skills</h3>
+		</div>
+			<div class="tech-skills1">
+				<ul>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript</li>
+					<li>jQuery</li>
+					<li>MySQL</li>
+					<li>PHP</li>
+					<li>phpMyAdmin</li>
+					<li>Prepros</li>
+					<li>Atom</li>
+				</ul>
+			</div>
+
+				<div class="tech-skills2" >
+					<ul>
+						<li>Ajax</li>
+						<li>Bootstrap</li>
+						<li>GitHub</li>
+						<li>JSON</li>
+						<li>SASS</li>
+						<li>Sublime</li>
+						<li>Visual Studio Code</li>
+						<li>Wordpress</li>
+						<li>Windows 10</li>
+					</ul>
+				</div>
+		<hr>
+		<!-- Resume Experience section -->
+				<div class="container-fluid" >
+					<p id="experience">Experience</p>
+				</div>
+
+				<div>
+					<p>June 2017 - Present</p>
+				</div>
+
+				<div>
+					<h4>Web Developer</h4>
+					<h5>Freelance, Chicago Il </h5>
+					<p>Versatile Web Developer offering services to individuals and small businesses. Creating clean, precise, cross-browser compatible code, using responsive technologies like Bootstrap, CSS Grid, Flexbox and Media Queries. Collaborating with end-users, going above and beyond expectations to find creative and innovative solutions for exceptional UI/UX.
+					</p>
+				</div>
+			<br>
+
+				<div>
+					<p>January 2014 - Present</p>
+				</div>
+
+				<div>
+					<h4>Doorman</h4>
+					<h5>Burnham Park Plaza, Chicago Il</h5>
+					<p>Opening the front doors politely and greeting residents and guests with cordial professional verbiage. Announce guests, observe security cameras and maintain a general cleanliness in and around the front-desk and entry-way to the building.</p>
+				</div>
+			<br>
+
+			
+				<div >
+					<p>May 2010-December 2013</p>
+				</div>
+
+				<div>
+					<h4>Food Delivery</h4>
+					<h5>Pizano's Pizza, Chicago Il</h5>
+					<p>Successfully navigating the Chicago downtown area to deliver food products in a timely fashion, ensuring freshness and overall quality while providing outstanding customer service.</p>
+				</div>
+			<br>
+
+			
+				<div >
+					<p>August 2000 - April 2009</p>
+				</div>
+
+				<div class="col-sm-10">
+					<h4>Real Estate Investor</h4>
+					<h5>Self employed, Chicago Il</h5>
+					<p>Buying, selling and leasing residential single family and multi-unit properties in the Chicagoland area. Conduct market analysis of foreclosed homes and marketed vacant units. Prepare rental agreements ensuring accuracy and completion. Perform general property management functions including supervising construction crews.</p>
+				</div>
+			<br>
+		
+		<hr>
+
+		<!-- Resume Education section -->
+	
+				<div id="education">
+					 <p id="education">Education</p>
+				
+					<p>1998 - 2000</p>
+					<h4>Roosevelt University, Chicago Illinois</h4>
+				
+					<p>1993 - 1996</p>
+				
+					<h4>Northeastern Illinois University, Chicago Illinois</h4>
+					<p>Business Administration (84 credit hours)</p>
+				</div>
+			</div>
+	
+		
+
+					<!--footer-->
+					<footer id="footer">
+						<p><a href="https://vergilkellley.github.io"><p> Vergil Kelley Web Design & Development</p></a><p> Copyright &copy; 2018</p><p>All Rights Reserved</p>
+					</footer>
+		
+	<!--------------local javascript file------------------------->
+	<script src="main.js"></script>
+
+	<!-------------------local javascript file for weather app------------->
+	<script type="text/javascript" src="weather.js"></script>
+
+
+
+
+    
+
+	<!----------------------JavaScript CDN for smooth scroll effect---------->
+	<!--<script
+  	src="https://code.jquery.com/jquery-3.3.1.min.js"
+  	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  	crossorigin="anonymous"></script>-->
+
+  <!----	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>--->
+
+  	
+</body>
+</html>
