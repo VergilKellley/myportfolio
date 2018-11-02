@@ -70,9 +70,10 @@ background-color:#4CAF50;
 
 #readmore {
 	position: absolute;
-	top: 42%;
-	left: 28%;
+	top: 55%;
+	left: 20.5%;
 	cursor: pointer;
+	font-size: 1.4rem;
 }
 
 .closeBtn {
@@ -87,10 +88,13 @@ background-color:#4CAF50;
 	margin: 0 auto;
 	top: 200px;
 	padding: 20px;
-	font-size: 1.2rem;
 	background: rgba(0, 0, 0, 0.8);
 	border-radius: 5px;
 	display: none;
+}
+
+#readmore-text{
+	font-size: 1.5rem;
 }
 
 .portfolio-container{
@@ -115,6 +119,8 @@ background-color:#4CAF50;
 	padding: 15px;
 	cursor:pointer;
 	color: #ccc;
+	outline: none;
+	margin: .5rem;
 }
 
 .websites img{
