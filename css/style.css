@@ -157,6 +157,11 @@ a:hover {
 	text-align: center;
 	width: 60%;
 	margin: 50px auto;
+	line-height: 1.7rem;
+}
+
+#myName{
+	padding-bottom: 1.7rem;
 }
 
 .tech-skills-title{
@@ -181,11 +186,13 @@ a:hover {
 	width: 60%;
 }
 
+#exp-edu p{
+	line-height: 1.7rem;
+}
+
 #exp-edu h2{
 	text-align: center;
 }
-
-
 
 #footer{
 	position: relative;
@@ -193,10 +200,14 @@ a:hover {
 	left: 0;
 	bottom: 0;
 	text-align: center;
-	height: 100px;
+	height: 75px;
 	width: 100%;
 	background: #000;
-	z-index: 4;
+}
+
+#footer p{
+	padding-top:25px;
+	margin: 0 auto;
 }
 
 @media (min-width: 1200px) {
