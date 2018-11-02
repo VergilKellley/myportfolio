@@ -176,6 +176,17 @@ a:hover {
 	width: 50%;
 }
 
+#exp-edu{
+	margin: 0 auto;
+	width: 60%;
+}
+
+#exp-edu h2{
+	text-align: center;
+}
+
+
+
 #footer{
 	position: relative;
 	top: 40px;
