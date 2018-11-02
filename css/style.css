@@ -38,24 +38,15 @@ li a {
     text-decoration: none;
 }
 
-a:hover:not(.active) {
+/*a:hover:not(.active) {
     background-color: #111;
-}
+}*/
 
 .active {
 background-color:#4CAF50;
 }
 
 /**********end navagation*****************/
-
-/*.container{
-	/*position: relative;
-	display: flex;
-	flex-direction: column;
-	/*justify-content: center;*/
-	/*height: 100%;
-	padding: 0 3rem;
-}*/
 
 .container{
 	font-family: 'Raleway', sans-serif;
@@ -112,6 +103,18 @@ background-color:#4CAF50;
 
 .websites{
 	margin: 50% 0;
+}
+
+.websites h2, p{
+	line-height: 1.7rem;
+}
+
+.websites button{
+	background: rgba(0, 0, 0, 0.8);
+	border:none;
+	padding: 15px;
+	cursor:pointer;
+	color: #ccc;
 }
 
 .websites img{
