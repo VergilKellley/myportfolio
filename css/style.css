@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+	background: #010f26;
+	color: #ccc;
+	overflow-x: hidden;
+
+	
+}
+
+/*********navagation******************/
+
+nav{
+	position: fixed;
+	z-index: 1;
+	top: 30%;
+	right:0;
+	width: 10%;
+	display: inline-block;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}
+
+/**********end navagation*****************/
+
+/*.container{
+	/*position: relative;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	/*height: 100%;
+	padding: 0 3rem;
+}*/
+
+.container{
+	font-family: 'Raleway', sans-serif;
+	height: 100vh;
+	width: 100vw;
+	position:relative;
+	top: 10%;
+	background: #333 url('../img/showcase.jpeg') no-repeat center center / cover;
+	color: #ccc;
+}
+
+#name{
+	position: relative;
+	top: 40px;
+	left: 30px;
+}
+
+#name h1{
+	margin-bottom: 2%;
+}
+
+#readmore {
+	position: absolute;
+	top: 42%;
+	left: 28%;
+	cursor: pointer;
+}
+
+.closeBtn {
+	position: relative;
+	float: right;
+	cursor: pointer;
+}
+
+#about-container {
+	position: relative;
+	width: 60%;
+	margin: 0 auto;
+	top: 200px;
+	padding: 20px;
+	font-size: 1.2rem;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+	display: none;
+}
+
+.portfolio-container{
+	position: relative;
+	width: 60%;
+	margin: 100px auto;
+	text-align: center;
+}
+
+
+.websites{
+	margin: 50% 0;
+}
+
+.websites img{
+	width: 80%;
+	height: 10%;
+	border-radius: 10px;
+}
+
+h1, h2, h3, p {
+	font-weight: 200;
+	margin: 0.4rem;
+	padding: 1px;
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+h2{
+	font-size: 2rem;
+	color: #aaa;
+}
+
+a {
+	text-decoration: none;
+	color:#aaa;
+}
+
+a:hover {
+	opacity: .3;
+}
+
+/* cursor */
+.txt-type > .txt {
+	border-right: 0.2rem solid #777;
+}
+
+.resume-body{
+	text-align: center;
+	width: 60%;
+	margin: 50px auto;
+}
+
+.tech-skills-title{
+	display:block;
+	width: 100%;
+}
+
+.tech-skills1{
+	display:block;
+	float: left;
+	width: 50%;
+}
+
+.tech-skills2{
+	display:block;
+	float: right;
+	width: 50%;
+}
+
+#footer{
+	position: relative;
+	top: 40px;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	background: #000;
+	z-index: 4;
+}
+
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 5rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.container {
+		padding: 0 1rem;
+	}
+
+	h1{
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+}
