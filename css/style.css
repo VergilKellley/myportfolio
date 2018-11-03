@@ -17,7 +17,7 @@ body {
 
 /*********navagation******************/
 
-nav{
+#side-nav{
 	position: fixed;
 	z-index: 1;
 	top: 30%;
@@ -25,13 +25,13 @@ nav{
 	width: 10%;
 	display: inline-block;
 }
-ul {
+#side-nav ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
 }
 
-li a {
+#side-nav li a {
     display: block;
     color: white;
     padding: 14px 16px;
@@ -70,8 +70,8 @@ background-color:#4CAF50;
 
 #readmore {
 	position: absolute;
-	top: 55%;
-	left: 20.5%;
+	top: 44%;
+	left: 20%;
 	cursor: pointer;
 	font-size: 1.4rem;
 }
@@ -85,15 +85,15 @@ background-color:#4CAF50;
 #about-container {
 	position: relative;
 	width: 60%;
-	margin: 0 auto;
-	top: 200px;
+	margin: 0 20%;
+	top: 20%;
 	padding: 20px;
 	background: rgba(0, 0, 0, 0.8);
 	border-radius: 5px;
 	display: none;
 }
 
-#readmore-text{
+#about-container p{
 	font-size: 1.5rem;
 }
 
@@ -225,22 +225,71 @@ a:hover {
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 810px) {
 	.container {
 		padding: 0 1rem;
-	}
+	}	
 
 	h1{
-		font-size: 3rem;
+		font-size: 2.5rem;
+	}
+
+	#about-container{
+		position: relative;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#about-container p{
+	font-size: 1rem;
+	}
+
+	#readmore {
+	top: 30%;
+	left: 13%;
+	font-size: 1rem;
+	}
+
+	.portfolio-container{
+		width:90%;
+	}
+
+	.portfolio-container h2{
+		font-size: 1.5rem
+	}
+
+	.websites img{
+	width: 100%;
+	}
+
+	.resume-body{
+		width: 90%;
+	}
+
+	.resume-body h2{
+		font-size: 1.5rem;
+	}
+
+	.resume-body ul {
+		list-style: none;
+	}
+
+	#exp-edu{
+		width: 90%;
+	}
+
+	#exp-edu h2{
+		font-size: 1.5rem;
+		margin-bottom: 1rem;
 	}
 }
 
 @media (max-width: 500px) {
 	h1 {
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 	}
 
 	h2 {
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 }
