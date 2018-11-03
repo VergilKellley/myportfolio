@@ -7,12 +7,9 @@
 }
 
 body {
-
 	background: #010f26;
 	color: #ccc;
-	overflow-x: hidden;
-
-	
+	overflow-x: hidden;	
 }
 
 /*********navagation******************/
@@ -25,7 +22,9 @@ body {
 	width: 10%;
 	display: inline-block;
 }
+
 #side-nav ul {
+	position: fixed;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -178,16 +177,22 @@ a:hover {
 	width: 100%;
 }
 
+.tech-skills ul{
+	list-style: none;
+}
+
 .tech-skills1{
 	display:block;
 	float: left;
 	width: 50%;
+	list-style: none;
 }
 
 .tech-skills2{
 	display:block;
 	float: right;
 	width: 50%;
+	list-style: none;
 }
 
 #exp-edu{
@@ -225,9 +230,41 @@ a:hover {
 	}
 }
 
+@media (min-width: 811px) {
+	#top-nav{
+		display: none;
+	}
+}
+
 @media (max-width: 810px) {
+
+	#side-nav{
+		display: none;
+	}
+
+	#top-nav{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	list-style: none;
+	}
+
+	#top-nav li{
+	display: inline;
+	font-size: 1.2rem;
+	}
+
+	#top-nav li a{
+	padding: 5px;
+	text-decoration: none;
+	}
 	.container {
 		padding: 0 1rem;
+	}
+
+	#welcome{
+		font-size: 1rem;
 	}	
 
 	h1{
