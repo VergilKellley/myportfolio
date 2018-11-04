@@ -197,20 +197,6 @@ a:hover {
 	list-style: none;
 }
 
-/*.tech-skills1{
-	display:block;
-	float: left;
-	width: 50%;
-	list-style: none;
-}
-
-.tech-skills2{
-	display:block;
-	float: right;
-	width: 50%;
-	list-style: none;
-}*/
-
 #exp-edu{
 	margin: 0 auto;
 	width: 60%;
@@ -273,7 +259,7 @@ a:hover {
 
 	#top-nav li{
 	display: inline;
-	font-size: .8rem;
+	font-size: 1.2rem;
 	}
 
 	#top-nav li a{
