@@ -28,6 +28,7 @@ body {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
+    font-size: 1.5rem;
 }
 
 #side-nav li a {
@@ -168,20 +169,35 @@ a:hover {
 	line-height: 1.7rem;
 }
 
+#resume-header{
+	position: relative;
+	top: 30px;
+}
+
 #myName{
-	padding-bottom: 1.7rem;
+	padding-bottom: 2.7rem;
+}
+
+#prof-summary{
+	position: relative;
+	top: 20px;
+}
+
+#prof-summary p{
+	padding-bottom: 20px;
 }
 
 .tech-skills-title{
 	display:block;
 	width: 100%;
+	margin-top: 50px;
 }
 
 .tech-skills ul{
 	list-style: none;
 }
 
-.tech-skills1{
+/*.tech-skills1{
 	display:block;
 	float: left;
 	width: 50%;
@@ -193,19 +209,21 @@ a:hover {
 	float: right;
 	width: 50%;
 	list-style: none;
-}
+}*/
 
 #exp-edu{
 	margin: 0 auto;
 	width: 60%;
 }
 
-#exp-edu p{
+/*#exp-edu p{
 	line-height: 1.7rem;
-}
+}*/
 
 #exp-edu h2{
 	text-align: center;
+	padding-top: 20px;
+
 }
 
 #footer{
@@ -246,6 +264,9 @@ a:hover {
 	position: fixed;
 	width: 100%;
 	z-index: 1;
+	padding: 10px;
+	top: 0;
+	background: rgba(0, 0, 0, 0.8);
 	text-align: center;
 	list-style: none;
 	}
@@ -305,6 +326,7 @@ a:hover {
 
 	.resume-body{
 		width: 90%;
+		font-size: 1.7
 	}
 
 	.resume-body h2{
@@ -315,12 +337,17 @@ a:hover {
 		list-style: none;
 	}
 
+	#myName{
+		font-size: 2.5rem;
+		padding-bottom: 1rem;
+	}
+
 	#exp-edu{
 		width: 90%;
 	}
 
 	#exp-edu h2{
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 		margin-bottom: 1rem;
 	}
 }
