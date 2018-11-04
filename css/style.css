@@ -59,12 +59,12 @@ background-color:#4CAF50;
 
 #name{
 	position: relative;
-	top: 40px;
+	top: 70px;
 	left: 30px;
 }
 
 #name h1{
-	margin-bottom: 2%;
+	margin-bottom: 3%;
 }
 
 #readmore {
@@ -252,7 +252,7 @@ a:hover {
 
 	#top-nav li{
 	display: inline;
-	font-size: 1.2rem;
+	font-size: .8rem;
 	}
 
 	#top-nav li a{
@@ -261,6 +261,10 @@ a:hover {
 	}
 	.container {
 		padding: 0 1rem;
+	}
+
+	#name h1 {
+
 	}
 
 	#welcome{
