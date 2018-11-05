@@ -38,7 +38,7 @@
 
 		return "<h3>Current Weather for: "+data.name+", "+data.sys.country+"		</h3>"+
 				"<h4><strong>Weather</strong>: "+data.weather[0].main+"</h4>"+
-				"<h4><strong>Description</strong>: "+data.weather[0].description+"<img src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'>" + "</h4>"+
+				"<h4><strong>Description</strong>: "+data.weather[0].description+/*"<img src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'>" +*/ "</h4>"+
 				"<h4><strong>Temperature</strong>: "+data.main.temp+"&#8457</h4>"+
 				/*"<h3><strong>Pressure</strong>: "+data.main.pressure+"</h3>"+*/
 				"<h4><strong>High</strong>: "+data.main.temp_max+"&#8457</h4>"+
