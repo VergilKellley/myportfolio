@@ -33,14 +33,10 @@ body {
 
 #side-nav li a {
     display: block;
-    color: white;
+    color: #ccc;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-/*a:hover:not(.active) {
-    background-color: #111;
-}*/
 
 .active {
 background-color:#4CAF50;
@@ -166,12 +162,12 @@ h1 {
 
 h2{
 	font-size: 2rem;
-	color: #aaa;
+	color: #ccc;
 }
 
 a {
 	text-decoration: none;
-	color:#aaa;
+	color:#ccc;
 }
 
 a:hover {
