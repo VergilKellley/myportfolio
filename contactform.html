@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="Vergil Kelley" content="">
+
+	<title>Vergil Kelley</title>
+
+	<!---------style sheet--------->
+	<link rel="stylesheet" type="text/css" href="css/contactform.css">
+
+	<!----font awesome cdn ------------>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-------animate css cdn--------->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+</head>
+<body>
+	<div class="container">
+		<h2 class="brand">Vergil Kelley Web Design & Development</h2>
+		<div class="wrapper animated bounceInLeft">
+			<div class="company-info">
+				<ul>
+					<li><i class="fa fa-road"></i>  address</li>
+					<li><i class="fa fa-phone"></i> (708) 973- 9694</li>
+					<li><i class="fa fa-envelope"></i> verg_1@yahoo.com</li>
+				</ul>
+			</div>
+			<div class="contact">
+				<h3>Email</h3>
+				<div class="alert">Your message has been sent</div>
+				<form id="contactForm">
+					<p>
+						<label>Name</label><br>
+						<input type="text" name="name" id="name" required>
+					</p>
+					<p>
+						<label>Company</label><br>
+						<input type="text" name="company" id="company">
+					</p>
+					<p>
+						<label>Email Address</label><br>
+						<input type="text" name="email" id="email" required>
+					</p>
+					<p>
+						<label>Phone Number</label><br>
+						<input type="text" name="phone" id="phone">
+					</p>
+					<p class="full">
+						<label>Message</label><br>
+						<textarea name="message" rows="" id="message"></textarea>
+					</p>
+					<p class="full">
+						<button type="submit">Submit</button>
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
