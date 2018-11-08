@@ -24,7 +24,9 @@ body {
 }
 
 #side-nav ul {
-	position: fixed;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
