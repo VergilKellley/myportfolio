@@ -26,14 +26,15 @@ ul{
 }
 
 .brand{
+	position: relative;
+	top: -20px;
+
 	text-align: center;
 }
 
-.brand span{
-	color:red;
-}
-
 .wrapper{
+	position: relative;
+	top: -30px;
 	box-shadow: 0 0 70px 0 rgba(72, 94, 116, 0.7);
 	height: 520px;
 }
