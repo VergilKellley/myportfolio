@@ -102,7 +102,7 @@ ul{
 	display: none;
 }
 /******large screens***********/
-@media(min-width: 700px){
+@media(min-width: 800px){
 	.wrapper{
 		display: grid;
 		grid-template-columns: 1fr 2fr;
@@ -117,19 +117,37 @@ ul{
 	}
 }
 
-@media(max-width: 699px){
+@media(max-width: 799px){
 
-	.container {
-		position: relative;
-		top: -40px;
-		font-size: 15px;
-	}
+	.wrapper{
+	height: 720px;
+}
 
-	.contact{
-		position: relative;
-		top:-50px;
-		font-size: 15px;
-	}
+.contact{
+	position: relative;
+	top: -50px;
+}
+
+.contact form{
+	display: block;
+}
+
+.contact h3{
+	text-align: center;
+}
+
+#contactForm input{
+	margin-bottom: 1em;
+}
+
+/********Form Styles************/
+
+
+
+.contact form label{
+	display: block;
+}
+
 
 	form button{
 		position: relative;
