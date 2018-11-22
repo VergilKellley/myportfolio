@@ -21,66 +21,49 @@
 	<!-------animate css cdn--------->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
-	<!-- jQuery CDN -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-	<script>
-    	// Landing Page Fade-in function 3 seconds
-    	$(document).ready(function() {
-        $('body').hide().fadeIn(1000);
-      });
-    </script>
-
 </head>
 <body>
-
-	<!-------------contact form container------------------------>
 	<div class="container">
-		<h2 class="brand">Vergil Kelley Web Design & Development</h2>
+		<h1 class="brand"><span>Vergil </span>Kelley</h1>
 		<div class="wrapper animated bounceInLeft">
 			<div class="company-info">
+				<h3>Vergil Kelley</h3>
 				<ul>
-					<li><i class="fa fa-road"></i> Chicago Illinois</li>
+					<!----------font awesome icons--------------------->
+					<li><i class="fa fa-road"></i>  address</li>
 					<li><i class="fa fa-phone"></i> (708) 973- 9694</li>
 					<li><i class="fa fa-envelope"></i> verg_1@yahoo.com</li>
 				</ul>
 			</div>
 			<div class="contact">
 				<h3>Email</h3>
-				<div class="alert">Your message has been sent</div>
-				<form id="contactForm">
+				<form>
 					<p>
-						<label>Name</label>
-						<input type="text" name="name" id="name" required>
+						<label>Name</label><br>
+						<input type="text" name="name">
 					</p>
 					<p>
-						<label>Company</label>
-						<input type="text" name="company" id="company">
+						<label>Company</label><br>
+						<input type="text" name="company">
 					</p>
 					<p>
-						<label>Email Address</label>
-						<input type="text" name="email" id="email" required>
+						<label>Email Address</label><br>
+						<input type="email" name="email">
 					</p>
 					<p>
-						<label>Phone Number</label>
-						<input type="text" name="phone" id="phone">
+						<label>Phone Number</label><br>
+						<input type="text" name="phone">
 					</p>
 					<p class="full">
-						<label>Message</label>
-						<textarea name="message" rows="" id="message"></textarea>
+						<label>Message</label><br>
+						<textarea name="message" rows="5" placeholder="Message..."></textarea>
 					</p>
 					<p class="full">
-						<button type="submit">Submit</button>
+						<button>Submit</button>
 					</p>
 				</form>
 			</div>
 		</div>
 	</div>
-
-	<!----------link to firebase contactform backend-------------------->
-	<script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
-
-	<!--------------javascript for contactform------------->
-	<script src="js/contactform.js"></script>
 </body>
 </html>
