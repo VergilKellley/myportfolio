@@ -1,15 +1,4 @@
-// Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyD3Hh_nK17b7k8LPDIQvGUc6_EMdtX8Rps",
-    authDomain: "contact-form-84e62.firebaseapp.com",
-    databaseURL: "https://contact-form-84e62.firebaseio.com",
-    projectId: "contact-form-84e62",
-    storageBucket: "contact-form-84e62.appspot.com",
-    messagingSenderId: "692273944620"
-  };
-  firebase.initializeApp(config);
-
-  // reference messages collection
+// reference messages collection
   var messagesRef = firebase.database().ref('messages');
 
 // listen for form submit
