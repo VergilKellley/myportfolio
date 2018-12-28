@@ -39,10 +39,11 @@
 			<!-----------------contact form------------------------>
 			<div class="contact">
 				<h3>Email</h3>
-				<form>
+				<div class="alert">Your message has been sent</div>
+				<form id="contactForm">
 					<p>
 						<label>Name</label><br>
-						<input type="text" name="name">
+						<input type="text" name="name" required>
 					</p>
 					<p>
 						<label>Company</label><br>
@@ -50,7 +51,7 @@
 					</p>
 					<p>
 						<label>Email Address</label><br>
-						<input type="email" name="email">
+						<input type="email" name="email" required>
 					</p>
 					<p>
 						<label>Phone Number</label><br>
@@ -61,11 +62,17 @@
 						<textarea name="message" rows="5" placeholder="Message..."></textarea>
 					</p>
 					<p class="full">
-						<button>Submit</button>
+						<button type="submit">Submit</button>
 					</p>
 				</form>
 			</div>
 		</div>
 	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+	<script src="js/contactform.js"></script>
+<script>
+
+	
 </body>
 </html>
