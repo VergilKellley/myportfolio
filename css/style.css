@@ -229,11 +229,8 @@ a:hover {
 #exp-edu{
 	margin: 0 auto;
 	width: 60%;
+	text-align: center;
 }
-
-/*#exp-edu p{
-	line-height: 1.7rem;
-}*/
 
 #exp-edu h2{
 	text-align: center;
