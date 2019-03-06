@@ -12,7 +12,7 @@ body{
 
 .container{
 	position: relative;
-	top:-25px;
+	/*top:-25px;*/
 	background: url('../img/showcase.jpeg')no-repeat center center / cover;
 	margin-left: auto;
 	margin-right: auto;
